@@ -20,3 +20,4 @@ This image can be configured by means of environment variables, that one can set
 Besides the [inherited ones](https://github.com/pires/docker-elasticsearch#environment-variables), this container image provides the following:
 
 * `DISCOVERY_SERVICE` - the service to be queried for through DNS.
+* `SHARD_ALLOCATION_AWARENESS` (https://www.elastic.co/guide/en/elasticsearch/reference/current/allocation-awareness.html)
