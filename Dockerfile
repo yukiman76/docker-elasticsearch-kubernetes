@@ -7,3 +7,5 @@ ADD config /elasticsearch/config
 
 # Set environment
 ENV DISCOVERY_SERVICE elasticsearch-discovery
+# disable the shard awarness
+ENV SHARD_ALLOCATION_AWARENESS ""
